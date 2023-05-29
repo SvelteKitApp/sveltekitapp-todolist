@@ -36,6 +36,7 @@ $npm i -D @sveltejs/adapter-static
 ```diff
 -		adapter: adapter()
 +		adapter: adapter(),
++    appDir: process.env.NODE_ENV === 'production' ? 'docs' : '_app',
 +    paths: {
 +      base: process.env.NODE_ENV === 'production' ? '/sveltekitapp-todolist' : '',
 +  }
@@ -79,25 +80,26 @@ $npm i -D gh-pages
 $npm run gh-pages
 ```
 
-## Developing
+## Разработка
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- запуск
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
+# запуск с открытием страницы в браузере
 npm run dev -- --open
 ```
 
-## Building
+## Сборка
 
-To create a production version of your app:
+- запуск формирования публикуемого приложения
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Для проверки собранного для публикации кода доступен локальный предпросмотр `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<div align="center">
+<img title="DaisyUI" alt="DaisyUI" height=48 src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg"/>
+</div
