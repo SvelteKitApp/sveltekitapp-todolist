@@ -3,24 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="./favicon.png" />
+    <!-- <base href="/sveltekitapp-todolist"/> -->
     <meta name="viewport" content="width=device-width" />
     
 		<link href="./_app/immutable/assets/0.33051769.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.9c779011.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.84a7718d.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.8afd28ac.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.862f7707.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths.401f1e06.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.8efe77c2.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.34be2e7b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.269505b9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.9a7a74ae.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.5e4dfa49.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.28231129.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/2.ee1ab936.js">
   </head>
   <body data-sveltekit-preload-data="hover">
-    <div class="min-h-screen flex flex-col">
+    <section class="min-h-screen flex flex-col">
 
 
-<nav class="flex flex-col items-center"><ul class="flex flex-row"><li class="px-2 py-3"><a href="/sveltekitapp-todolist/">Список дел</a>
-      </li><li class="px-2 py-3"><a href="/sveltekitapp-todolist/about">О приложении</a>
-      </li></ul></nav>
+<header><nav class="flex flex-col items-center"><ul class="flex flex-row"><li class="px-2 py-3"><a href="/sveltekitapp-todolist/">Список дел</a>
+        </li><li class="px-2 py-3"><a href="/sveltekitapp-todolist/about">О приложении</a>
+        </li></ul></nav></header>
 <main class="flex flex-col flex-auto bg-orange-400"><div class="flex flex-col flex-auto content-center"><h1 class="text-4xl text-center py-4">СПИСОК ДЕЛ</h1>
   <div class="flex flex-col flex-auto items-center"><div class="card bg-base-100 shadow-xl w-3/4"><div class="card-body items-center text-center"><p class="card-title text-center">Добавить в список</p>
 
@@ -39,7 +40,7 @@
 			
 			<script>
 				{
-					__sveltekit_1vwvmt4 = {
+					__sveltekit_1coa76g = {
 						assets: "/sveltekitapp-todolist",
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
@@ -50,8 +51,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.9c779011.js"),
-						import("./_app/immutable/entry/app.8efe77c2.js")
+						import("./_app/immutable/entry/start.84a7718d.js"),
+						import("./_app/immutable/entry/app.5e4dfa49.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
@@ -62,6 +63,6 @@
 					});
 				}
 			</script>
-		</div>
+		</section>
   </body>
 </html>
