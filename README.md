@@ -80,6 +80,21 @@ $npm i -D gh-pages
 $npm run gh-pages
 ```
 
+## Добавление Daisyui
+
+- установить зависимости
+
+```bash
+$npm i daisyui
+```
+
+- подключить `daisyui`
+
+```diff
+-  plugins: []
++  plugins: [require('daisyui')]
+```
+
 ## Разработка
 
 - запуск
