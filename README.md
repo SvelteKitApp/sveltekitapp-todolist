@@ -116,5 +116,6 @@ npm run build
 Для проверки собранного для публикации кода доступен локальный предпросмотр `npm run preview`.
 
 <div align="center">
+<img title="Svelte" alt="Svelte" height="48" width="48" src="https://avatars.githubusercontent.com/u/23617963?s=200&v=4"/>
 <img title="DaisyUI" alt="DaisyUI" height=48 src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg"/>
 </div
